@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range (.Paginate $pages).Pages }}
+<div class="list">
+  <a href="{{ .RelPermalink }}" class="list-title">{{ .Title }}</a>
+  <p datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}" class="list-date">
+    {{ .Date.Format "2006-01-02" }}
+  <p/>
+</div>
+{{ end }}
+
+{{ partial "footer.html" . }}
