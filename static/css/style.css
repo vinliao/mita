@@ -6,6 +6,8 @@
 
 p {
   margin-bottom: 1rem; }
+  p a {
+    color: #a082c9; }
 
 html {
   font-size: 10px; }
