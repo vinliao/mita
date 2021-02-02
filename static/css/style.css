@@ -52,28 +52,24 @@ hr {
 .container {
   max-width: 55rem;
   margin: 0 auto;
-  padding: 1rem;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  row-gap: 3rem; }
+  padding: 1rem; }
 
-.nav-title {
-  font-family: "Fira Code", monospace;
-  font-size: 3rem;
-  font-weight: 300; }
-
-.nav-links {
-  text-align: right;
+.nav {
   display: flex;
   align-items: center;
-  justify-content: flex-end; }
+  justify-content: space-between;
+  padding-bottom: 3rem; }
+  .nav-title {
+    font-family: "Fira Code", monospace;
+    font-size: 3rem;
+    font-weight: 300; }
   .nav-links a {
     font-family: "Fira Code", monospace;
     color: #b3b3b3;
-    margin-left: 2rem; }
+    padding-left: 2rem; }
 
 .list {
-  grid-column: 1 / 3; }
+  padding-bottom: 2rem; }
   .list:last-of-type {
     padding-bottom: 5rem; }
   .list-date {
@@ -83,19 +79,17 @@ hr {
     font-size: 3rem;
     font-weight: 700; }
 
-.post {
-  grid-column: 1 / 3; }
-  .post-title {
-    font-size: 3rem;
-    font-weight: 700; }
-  .post-date {
-    font-size: 1.5rem;
-    color: #b3b3b3;
-    padding-bottom: 1rem; }
-  .post-content {
-    padding-bottom: 3rem; }
-    .post-content a {
-      color: #a082c9; }
+.post-title {
+  font-size: 3rem;
+  font-weight: 700; }
+.post-date {
+  font-size: 1.5rem;
+  color: #b3b3b3;
+  padding-bottom: 1rem; }
+.post-content {
+  padding-bottom: 3rem; }
+  .post-content a {
+    color: #a082c9; }
 
 @media (min-width: 600px) {
   html {
@@ -106,24 +100,27 @@ hr {
 
   .container {
     max-width: 75rem;
-    column-gap: 5rem;
     padding: 2rem;
-    margin: 0; }
+    margin: 0;
+    display: flex; }
 
-  .nav-title {
-    margin-bottom: 0; }
-
-  .nav-links {
+  .nav {
+    display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: flex-start;
-    grid-column: 1 / 2;
-    padding-top: 1rem; }
-    .nav-links a {
-      padding-bottom: 1rem; }
+    padding-right: 3rem; }
+    .nav-title {
+      padding-bottom: 2rem; }
+    .nav-links {
+      display: flex;
+      flex-direction: column; }
+      .nav-links a {
+        padding-bottom: 1rem; }
 
-  .list,
   .post {
-    grid-column: 2 / 3; } }
+    padding-top: 5rem; }
+
+  .list:first-of-type {
+    padding-top: 5rem; } }
 
 /*# sourceMappingURL=style.css.map */
