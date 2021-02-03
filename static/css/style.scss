@@ -2,6 +2,9 @@
 $max-width: 55rem;
 $max-width-desktop: 75rem;
 
+// I also can try #7d50df or hsl(258, 69%, 59%)
+// tbh these primary colors suck ass
+
 $primary-color: hsl(265, 40%, 65%);
 $primary-color-light-1: hsl(265, 40%, 75%);
 $primary-color-light-2: hsl(265, 40%, 85%);
@@ -11,8 +14,6 @@ $primary-color-dark-2: hsl(265, 40%, 45%);
 $primary-color-dark-3: hsl(265, 40%, 35%);
 $primary-color-dark-4: hsl(265, 40%, 25%);
 
-// I also can try #7d50df or hsl(258, 69%, 59%)
-
 $background-color: hsl(0, 0%, 100%);
 $text-color: hsl(0, 0%, 20%);
 $text-color-light-1: hsl(0, 0%, 30%);
@@ -21,7 +22,7 @@ $text-color-light-3: hsl(0, 0%, 50%);
 $text-color-light-4: hsl(0, 0%, 60%);
 $text-color-light-5: hsl(0, 0%, 70%);
 $code-background-color: $primary-color-light-3;
-$code-color: $primary-color-dark-1;
+$code-color: $text-color-light-2;
 
 $dark-mode: false;
 @if $dark-mode {
@@ -64,7 +65,8 @@ p {
   margin-bottom: 1rem;
 
   a {
-    color: $primary-color;
+    color: $text-color-light-1;
+    text-decoration: underline;
   }
 }
 
@@ -86,7 +88,6 @@ a {
 
 code {
   @include monospace-font;
-  // make some color stuff here... maybe
   background: $code-background-color;
   color: $code-color;
   padding: 0 0.5rem;
@@ -94,9 +95,9 @@ code {
 
 blockquote {
   padding-left: 1rem;
-  margin-left: 1rem;
+  margin-left: 3px;
   @include monospace-font;
-  border-left: 3px solid $primary-color;
+  border-left: 3px solid $primary-color-light-1;
 }
 
 h1,

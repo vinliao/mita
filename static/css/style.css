@@ -7,7 +7,8 @@
 p {
   margin-bottom: 1rem; }
   p a {
-    color: #a082c9; }
+    color: #4d4d4d;
+    text-decoration: underline; }
 
 html {
   font-size: 10px; }
@@ -25,14 +26,14 @@ a {
 code {
   font-family: "Fira Code", monospace;
   background: #f1edf7;
-  color: #855eba;
+  color: #666666;
   padding: 0 0.5rem; }
 
 blockquote {
   padding-left: 1rem;
-  margin-left: 1rem;
+  margin-left: 3px;
   font-family: "Fira Code", monospace;
-  border-left: 3px solid #a082c9; }
+  border-left: 3px solid #bba6d9; }
 
 h1,
 h2,
