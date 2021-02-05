@@ -1,9 +1,9 @@
-name = "vight"
+name = "mita"
 license = "MIT"
-licenselink = "https://github.com/vinlia/vight/blob/master/LICENSE.md"
+licenselink = "https://github.com/vinlia/mita/blob/master/LICENSE"
 description = "a zero-nonsense hugo theme for writers"
-homepage = "https://github.com/vinliao/vight"
-tags = ["blog", "minimalist", "minimal", "clean", "simple", "responsive", "light"]
+homepage = "https://github.com/vinliao/mita"
+tags = ["blog", "milligram"]
 features = ["blog", "responsive", "zero-nonsense"]
 min_version = "0.55.2"
 

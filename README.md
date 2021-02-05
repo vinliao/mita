@@ -1,21 +1,12 @@
-# vight—a zero-nonsense hugo theme for writers
+# Mita—a hugo theme that feels like a milligram.
 
-![vight first image](https://raw.githubusercontent.com/vinliao/vight/master/images/vight-1.png)
-![vight second image](https://raw.githubusercontent.com/vinliao/vight/master/images/vight-2.png)
+You can check the demo [here.](https://google.com)
 
-What this theme **_does not_** offer:
-- categories and tags
-- pagination
-- disqus
-- icons and animations
-- colorful things (there are colors, but not much)
-- tracking with analytics
-- dark mode
-- javascript (for now... perhaps)
+![mita first image](https://raw.githubusercontent.com/vinliao/mita/master/images/mita-1.png)
 
 ## How to install
-1. On your website's root directory, run `git submodule add https://github.com/vinliao/vight themes/vight`
-2. In your `config.toml`, change the theme property to `theme = "vight"`
+1. On your website's root directory, run `git submodule add https://github.com/vinliao/mita themes/mita`
+2. In your `config.toml`, change the theme property to `theme = "mita"`
 
 ## How to add items in nav
 Paste this to your `config.toml` and adjust accordingly.
