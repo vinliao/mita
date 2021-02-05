@@ -18,7 +18,7 @@ What this theme **_does not_** offer:
 2. In your `config.toml`, change the theme property to `theme = "vight"`
 
 ## How to add items in nav
-Paste this to your `config.toml` and adjust accordingly
+Paste this to your `config.toml` and adjust accordingly.
 
 ```
 [Menus]
@@ -29,12 +29,12 @@ Paste this to your `config.toml` and adjust accordingly
 ```
 
 ## Warning!
-This theme is still at its infancy; it has lots of inconvenient bugs like spacing and layoung issues.
+This theme is still at its infancy; it has lots of inconvenient bugs like spacing and layout issues.
 
 But it's fairly okay for text-only blog, though.
 
 Some known bugs/ugliness:
 1. Long website title doesn't play well with the `max-width` css property.
 2. The colors, even when there's not much of it, sucks.
-3. All code-related text are broken.
+3. All code-related texts are broken.
 4. Some elements feel cramped: ul, ol, blockquote, and the bottom of website.
