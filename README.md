@@ -1,10 +1,12 @@
 # vight—a zero-nonsense hugo theme for writers
 
-// todo: add screenshot
+![vight first image](https://raw.githubusercontent.com/vinliao/vight/master/images/vight-1.png)
+![vight second image](https://raw.githubusercontent.com/vinliao/vight/master/images/vight-2.png)
 
-What this theme does not offer:
+What this theme **_does not_** offer:
 - categories and tags
 - pagination
+- disqus
 - icons and animations
 - colorful things (there are colors, but not much)
 - tracking with analytics
@@ -25,3 +27,14 @@ Paste this to your `config.toml` and adjust accordingly
       {Name = "other", URL = "/other"},
   ]
 ```
+
+## Warning!
+This theme is still at its infancy; it has lots of inconvenient bugs like spacing and layoung issues.
+
+But it's fairly okay for text-only blog, though.
+
+Some known bugs/ugliness:
+1. Long website title doesn't play well with the `max-width` css property.
+2. The colors, even when there's not much of it, sucks.
+3. All code-related text are broken.
+4. Some elements feel cramped: ul, ol, blockquote, and the bottom of website.
