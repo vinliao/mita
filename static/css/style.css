@@ -102,7 +102,7 @@ hr {
     font-size: 13px; }
 
   .container {
-    max-width: 75rem;
+    max-width: none;
     padding: 2rem;
     margin: 0;
     display: flex; }
@@ -113,7 +113,8 @@ hr {
     align-items: flex-end;
     padding-right: 3rem; }
     .nav-title {
-      padding-bottom: 2rem; }
+      padding-bottom: 2rem;
+      white-space: nowrap; }
     .nav-links {
       display: flex;
       flex-direction: column; }
@@ -122,6 +123,9 @@ hr {
 
   .post {
     padding-top: 5rem; }
+
+  .post, .list {
+    max-width: 55rem; }
 
   .list:first-of-type {
     padding-top: 5rem; } }

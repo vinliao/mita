@@ -2,12 +2,11 @@
 
 <div class="post">
   <div class="post-title">{{ .Title }}</div>
-  <p datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}"
-  class="post-date">
+  <p datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}" class="post-date">
     {{ .Date.Format "2006-01-02" }}
   </p>
-</div>
 
-{{ .Content }}
+  {{ .Content }}
+</div>
 
 {{ partial "footer.html" . }}
