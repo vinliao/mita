@@ -87,10 +87,17 @@ a {
 }
 
 // blocks of code
-// code {
-// }
+pre {
+  border-radius: 5px;
+  padding: 1rem;
+  overflow-x: auto;
 
-// code in text
+  code {
+    @include monospace-font;
+  }
+}
+
+// code (single backtick) in text
 p > code,
 li > code,
 dd > code,
@@ -106,6 +113,10 @@ blockquote {
   margin-left: 3px;
   @include monospace-font;
   border-left: 3px solid $primary-color-light-1;
+  
+  p {
+    margin-top: 1rem;
+  }
 }
 
 h1,
@@ -135,7 +146,7 @@ hr {
 }
 
 // === imports ===
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Literata:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Literata:ital,wght@0,400;0,700;1,400&display=swap");
 // @import './scss/variables';
 // @import './scss/mixins';
 // @import './scss/base';
@@ -242,7 +253,8 @@ hr {
     margin-top: 5rem;
   }
 
-  .post, .list {
+  .post,
+  .list {
     max-width: $max-width;
   }
 

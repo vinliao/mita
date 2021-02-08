@@ -23,6 +23,13 @@ a {
   text-decoration: none;
   color: #333333; }
 
+pre {
+  border-radius: 5px;
+  padding: 1rem;
+  overflow-x: auto; }
+  pre code {
+    font-family: "Fira Code", monospace; }
+
 p > code,
 li > code,
 dd > code,
@@ -37,6 +44,8 @@ blockquote {
   margin-left: 3px;
   font-family: "Fira Code", monospace;
   border-left: 3px solid #bba6d9; }
+  blockquote p {
+    margin-top: 1rem; }
 
 h1,
 h2,
@@ -129,7 +138,8 @@ hr {
   .post {
     margin-top: 5rem; }
 
-  .post, .list {
+  .post,
+  .list {
     max-width: 55rem; }
 
   .list:first-of-type {
