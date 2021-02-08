@@ -23,7 +23,10 @@ a {
   text-decoration: none;
   color: #333333; }
 
-code {
+p > code,
+li > code,
+dd > code,
+td > code {
   font-family: "Fira Code", monospace;
   background: #f1edf7;
   color: #666666;
@@ -42,11 +45,11 @@ h4,
 h5,
 h6 {
   font-family: "Fira Code", monospace;
-  padding-top: 1rem; }
+  margin-top: 1rem; }
 
 ul,
 ol {
-  padding-left: 2.5rem; }
+  margin-left: 2.5rem; }
 
 hr {
   margin-top: 1rem;
@@ -60,21 +63,23 @@ hr {
 .nav {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 3rem; }
+  margin-bottom: 1rem; }
   .nav-title {
     font-family: "Fira Code", monospace;
     font-size: 3rem;
-    font-weight: 300; }
+    font-weight: 300;
+    white-space: nowrap; }
   .nav-links a {
     font-family: "Fira Code", monospace;
     color: #b3b3b3;
-    padding-left: 2rem; }
+    margin-right: 2rem; }
 
 .list {
-  padding-bottom: 2rem; }
+  margin-bottom: 2rem; }
   .list:last-of-type {
-    padding-bottom: 5rem; }
+    margin-bottom: 5rem; }
   .list-date {
     font-size: 1.5rem;
     color: #b3b3b3; }
@@ -88,9 +93,9 @@ hr {
 .post-date {
   font-size: 1.5rem;
   color: #b3b3b3;
-  padding-bottom: 1rem; }
+  margin-bottom: 1rem; }
 .post-content {
-  padding-bottom: 3rem; }
+  margin-bottom: 3rem; }
   .post-content a {
     color: #a082c9; }
 
@@ -111,23 +116,23 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right: 3rem; }
+    margin-right: 3rem; }
     .nav-title {
-      padding-bottom: 2rem;
-      white-space: nowrap; }
+      margin-bottom: 2rem; }
     .nav-links {
       display: flex;
       flex-direction: column; }
       .nav-links a {
-        padding-bottom: 1rem; }
+        margin-bottom: 1rem;
+        margin-right: 0; }
 
   .post {
-    padding-top: 5rem; }
+    margin-top: 5rem; }
 
   .post, .list {
     max-width: 55rem; }
 
   .list:first-of-type {
-    padding-top: 5rem; } }
+    margin-top: 5rem; } }
 
 /*# sourceMappingURL=style.css.map */

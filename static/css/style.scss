@@ -86,7 +86,15 @@ a {
   color: $text-color;
 }
 
-code {
+// blocks of code
+// code {
+// }
+
+// code in text
+p > code,
+li > code,
+dd > code,
+td > code {
   @include monospace-font;
   background: $code-background-color;
   color: $code-color;
@@ -107,12 +115,12 @@ h4,
 h5,
 h6 {
   @include monospace-font;
-  padding-top: 1rem;
+  margin-top: 1rem;
 }
 
 ul,
 ol {
-  padding-left: 2.5rem;
+  margin-left: 2.5rem;
 }
 
 hr {
@@ -135,29 +143,31 @@ hr {
 .nav {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 3rem;
+  margin-bottom: 1rem;
 
   &-title {
     @include monospace-font;
     font-size: 3rem;
     font-weight: 300;
+    white-space: nowrap;
   }
 
   &-links {
     a {
       @include monospace-font;
       color: $text-color-light-5;
-      padding-left: 2rem;
+      margin-right: 2rem;
     }
   }
 }
 
 .list {
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 
   &:last-of-type {
-    padding-bottom: 5rem;
+    margin-bottom: 5rem;
   }
 
   &-date {
@@ -176,11 +186,11 @@ hr {
 
   &-date {
     @include date-text;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
   }
 
   &-content {
-    padding-bottom: 3rem;
+    margin-bottom: 3rem;
     a {
       color: $primary-color;
     }
@@ -211,11 +221,10 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right: 3rem;
+    margin-right: 3rem;
 
     &-title {
-      padding-bottom: 2rem;
-      white-space: nowrap;
+      margin-bottom: 2rem;
     }
 
     &-links {
@@ -223,13 +232,14 @@ hr {
       flex-direction: column;
 
       a {
-        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 0;
       }
     }
   }
 
   .post {
-    padding-top: 5rem;
+    margin-top: 5rem;
   }
 
   .post, .list {
@@ -237,6 +247,6 @@ hr {
   }
 
   .list:first-of-type {
-    padding-top: 5rem;
+    margin-top: 5rem;
   }
 }
