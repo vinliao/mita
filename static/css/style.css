@@ -26,7 +26,8 @@ a {
 pre {
   border-radius: 5px;
   padding: 1rem;
-  overflow-x: auto; }
+  overflow-x: auto;
+  margin-bottom: 1rem; }
   pre code {
     font-family: "Fira Code", monospace; }
 
@@ -44,8 +45,6 @@ blockquote {
   margin-left: 3px;
   font-family: "Fira Code", monospace;
   border-left: 3px solid #bba6d9; }
-  blockquote p {
-    margin-top: 1rem; }
 
 h1,
 h2,
@@ -58,7 +57,8 @@ h6 {
 
 ul,
 ol {
-  margin-left: 2.5rem; }
+  margin-left: 2.5rem;
+  margin-bottom: 1rem; }
 
 hr {
   margin-top: 1rem;
