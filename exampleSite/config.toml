@@ -1,4 +1,4 @@
-baseURL = "https://mynewhugosite.com"
+baseURL = "https://example.com"
 title = "My New Hugo Site"
 theme = "hugo-starter"
 
