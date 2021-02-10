@@ -19,14 +19,3 @@ Paste this to your `config.toml` and adjust accordingly.
       {Name = "other", URL = "/other"},
   ]
 ```
-
-## Warning!
-This theme is still at its infancy; it has lots of inconvenient bugs like spacing and layout issues.
-
-But it's fairly okay for text-only blog, though.
-
-Some known bugs/ugliness:
-1. Long website title doesn't play well with the `max-width` css property.
-2. The colors, even when there's not much of it, sucks.
-3. All code-related texts are broken.
-4. Some elements feel cramped: ul, ol, blockquote, and the bottom of website.
