@@ -119,13 +119,12 @@ blockquote {
   background: $primary-color-light-4;
 }
 
-// h1,
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  @include monospace-font;
   margin-top: 1rem;
 }
 
@@ -183,6 +182,7 @@ hr {
       @include monospace-font;
       color: $text-color-light-5;
       margin-right: 2rem;
+      font-weight: 300;
     }
   }
 }

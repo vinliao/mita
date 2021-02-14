@@ -48,12 +48,12 @@ blockquote {
   border-left: 3px solid #bba6d9;
   background: #faf8fc; }
 
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Fira Code", monospace;
   margin-top: 1rem; }
 
 h1 {
@@ -93,7 +93,8 @@ hr {
   .nav-links a {
     font-family: "Fira Code", monospace;
     color: #b3b3b3;
-    margin-right: 2rem; }
+    margin-right: 2rem;
+    font-weight: 300; }
 
 .list {
   margin-bottom: 2rem; }
