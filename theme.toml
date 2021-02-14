@@ -1,10 +1,10 @@
 name = "mita"
 license = "MIT"
 licenselink = "https://github.com/vinlia/mita/blob/master/LICENSE"
-description = "a zero-nonsense hugo theme for writers"
+description = "A hugo theme that feels like a milligram"
 homepage = "https://github.com/vinliao/mita"
-tags = ["blog", "milligram"]
-features = ["blog", "responsive", "zero-nonsense"]
+tags = ["blog", "milligram", "light"]
+features = ["blog", "responsive", "zero-nonsense", "milligram"]
 min_version = "0.55.2"
 
 [author]
