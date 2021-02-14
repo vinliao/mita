@@ -114,10 +114,6 @@ hr {
   font-size: 1.5rem;
   color: #b3b3b3;
   margin-bottom: 1rem; }
-.post-content {
-  margin-bottom: 3rem; }
-  .post-content a {
-    color: #a082c9; }
 
 @media (min-width: 600px) {
   html {
