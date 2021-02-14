@@ -27,7 +27,7 @@ pre {
   border-radius: 5px;
   padding: 1rem;
   overflow-x: auto;
-  margin-bottom: 1rem; }
+  margin: 1rem 0 1rem 0; }
   pre code {
     font-family: "Fira Code", monospace; }
 
@@ -42,9 +42,11 @@ td > code {
 
 blockquote {
   padding-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 3px;
   margin-left: 3px;
-  font-family: "Fira Code", monospace;
-  border-left: 3px solid #bba6d9; }
+  border-left: 3px solid #bba6d9;
+  background: #faf8fc; }
 
 h1,
 h2,
@@ -75,8 +77,7 @@ hr {
 
 .container {
   max-width: 55rem;
-  margin: 0 auto;
-  padding: 1rem; }
+  margin: 0 auto; }
 
 .nav {
   display: flex;

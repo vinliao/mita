@@ -9,6 +9,7 @@ $primary-color: hsl(265, 40%, 65%);
 $primary-color-light-1: hsl(265, 40%, 75%);
 $primary-color-light-2: hsl(265, 40%, 85%);
 $primary-color-light-3: hsl(265, 40%, 95%);
+$primary-color-light-4: hsl(265, 40%, 98%);
 $primary-color-dark-1: hsl(265, 40%, 55%);
 $primary-color-dark-2: hsl(265, 40%, 45%);
 $primary-color-dark-3: hsl(265, 40%, 35%);
@@ -91,7 +92,7 @@ pre {
   border-radius: 5px;
   padding: 1rem;
   overflow-x: auto;
-  margin-bottom: 1rem;
+  margin: 1rem 0 1rem 0;
 
   code {
     @include monospace-font;
@@ -111,9 +112,11 @@ td > code {
 
 blockquote {
   padding-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 3px;
   margin-left: 3px;
-  @include monospace-font;
   border-left: 3px solid $primary-color-light-1;
+  background: $primary-color-light-4;
 }
 
 h1,
@@ -152,7 +155,6 @@ hr {
 .container {
   max-width: $max-width;
   margin: 0 auto;
-  padding: 1rem;
 }
 
 // === imports ===
