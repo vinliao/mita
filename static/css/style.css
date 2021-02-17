@@ -51,6 +51,11 @@ blockquote {
   blockquote p {
     margin-bottom: 0; }
 
+img {
+  max-width: 100%;
+  display: block;
+  margin: 3rem auto; }
+
 h1,
 h2,
 h3,
@@ -78,7 +83,7 @@ hr {
   margin-bottom: 1rem; }
 
 .container {
-  max-width: 55rem;
+  max-width: 55ch;
   margin: 0 auto;
   padding: 1rem; }
 
@@ -150,7 +155,7 @@ hr {
 
   .post,
   .list {
-    max-width: 55rem; }
+    max-width: 55ch; }
 
   .list:first-of-type {
     margin-top: 5rem; } }

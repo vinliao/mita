@@ -6,8 +6,7 @@
 @import "./colors.scss";
 
 // === variables ===
-$max-width: 55rem;
-$max-width-desktop: 75rem;
+$max-width: 55ch;
 $text-color: $gray-700;
 $text-color-secondary: $gray-400;
 $background-color: $white;
@@ -98,6 +97,12 @@ blockquote {
   p {
     margin-bottom: 0;
   }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 3rem auto;
 }
 
 h1,
