@@ -39,10 +39,9 @@ p {
   margin-bottom: 1rem;
 
   a {
-    // color: $text-color-light-1;
-    color: $gray-600;
+    color: $text-color;
     text-decoration: underline;
-    text-decoration-color: $gray-400;
+    text-decoration-color: $purple-300;
   }
 }
 
@@ -82,17 +81,14 @@ li > code,
 dd > code,
 td > code {
   @include monospace-font;
-  background: $purple-100;
+  background: $purple-50;
   padding: 0 0.5rem;
-  margin: 0 0.25rem;
 }
 
 blockquote {
-  padding: 1rem;
-  margin: 1rem 0 1rem 2rem;
-  border-radius: 3px;
-  border-left: 3px solid $purple-400;
-  background: $purple-50;
+  padding: 1rem 4rem;
+  margin: 2rem 0;
+  font-style: italic;
 
   p {
     margin-bottom: 0;
