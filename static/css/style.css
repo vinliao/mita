@@ -7,8 +7,9 @@
 p {
   margin-bottom: 1rem; }
   p a {
-    color: #4d4d4d;
-    text-decoration: underline; }
+    color: #52525b;
+    text-decoration: underline;
+    text-decoration-color: #a1a1aa; }
 
 html {
   font-size: 10px; }
@@ -16,15 +17,15 @@ html {
 body {
   font-size: 1.75rem;
   font-family: "Literata", serif;
-  color: #333333;
-  background-color: white; }
+  color: #3f3f46;
+  background-color: #fff; }
 
 a {
   text-decoration: none;
-  color: #333333; }
+  color: #3f3f46; }
 
 pre {
-  background: #f1edf7;
+  background: #faf5ff;
   border-radius: 3px;
   padding: 1rem;
   overflow-x: auto;
@@ -37,16 +38,16 @@ li > code,
 dd > code,
 td > code {
   font-family: "Fira Code", monospace;
-  background: #f1edf7;
-  color: #666666;
-  padding: 0 0.5rem; }
+  background: #f3e8ff;
+  padding: 0 0.5rem;
+  margin: 0 0.25rem; }
 
 blockquote {
   padding: 1rem;
   margin: 1rem 0 1rem 2rem;
   border-radius: 3px;
-  border-left: 3px solid #bba6d9;
-  background: #faf8fc; }
+  border-left: 3px solid #c084fc;
+  background: #faf5ff; }
   blockquote p {
     margin-bottom: 0; }
 
@@ -94,7 +95,7 @@ hr {
     white-space: nowrap; }
   .nav-links a {
     font-family: "Fira Code", monospace;
-    color: #b3b3b3;
+    color: #a1a1aa;
     margin-right: 2rem;
     font-weight: 300; }
 
@@ -104,7 +105,7 @@ hr {
     margin-bottom: 5rem; }
   .list-date {
     font-size: 1.5rem;
-    color: #b3b3b3; }
+    color: #a1a1aa; }
   .list-title {
     font-size: 3rem;
     font-weight: 700; }
@@ -114,7 +115,7 @@ hr {
   font-weight: 700; }
 .post-date {
   font-size: 1.5rem;
-  color: #b3b3b3;
+  color: #a1a1aa;
   margin-bottom: 1rem; }
 
 @media (min-width: 600px) {

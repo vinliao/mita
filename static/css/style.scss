@@ -1,42 +1,16 @@
+// === imports ===
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Literata:ital,wght@0,400;0,700;1,400&display=swap");
+// @import './scss/variables';
+// @import './scss/mixins';
+// @import './scss/base';
+@import "./colors.scss";
+
 // === variables ===
 $max-width: 55rem;
 $max-width-desktop: 75rem;
-
-// I also can try #7d50df or hsl(258, 69%, 59%)
-// tbh these primary colors suck ass
-
-$primary-color: hsl(265, 40%, 65%);
-$primary-color-light-1: hsl(265, 40%, 75%);
-$primary-color-light-2: hsl(265, 40%, 85%);
-$primary-color-light-3: hsl(265, 40%, 95%);
-$primary-color-light-4: hsl(265, 40%, 98%);
-$primary-color-dark-1: hsl(265, 40%, 55%);
-$primary-color-dark-2: hsl(265, 40%, 45%);
-$primary-color-dark-3: hsl(265, 40%, 35%);
-$primary-color-dark-4: hsl(265, 40%, 25%);
-
-$background-color: hsl(0, 0%, 100%);
-$text-color: hsl(0, 0%, 20%);
-$text-color-light-1: hsl(0, 0%, 30%);
-$text-color-light-2: hsl(0, 0%, 40%);
-$text-color-light-3: hsl(0, 0%, 50%);
-$text-color-light-4: hsl(0, 0%, 60%);
-$text-color-light-5: hsl(0, 0%, 70%);
-$code-background-color: $primary-color-light-3;
-$code-color: $text-color-light-2;
-
-$dark-mode: false;
-@if $dark-mode {
-  $background-color: hsl(0, 0%, 15%);
-  $text-color: hsl(0, 0%, 100%);
-  $text-color-light-1: hsl(0, 0%, 90%);
-  $text-color-light-2: hsl(0, 0%, 80%);
-  $text-color-light-3: hsl(0, 0%, 70%);
-  $text-color-light-4: hsl(0, 0%, 60%);
-  $text-color-light-5: hsl(0, 0%, 50%);
-  $code-background-color: $primary-color-dark-4;
-  $code-color: $primary-color-light-2;
-}
+$text-color: $gray-700;
+$text-color-secondary: $gray-400;
+$background-color: $white;
 
 // === mixins ===
 @mixin thick-title {
@@ -50,7 +24,7 @@ $dark-mode: false;
 
 @mixin date-text {
   font-size: 1.5rem;
-  color: $text-color-light-5;
+  color: $text-color-secondary;
 }
 
 // === base ===
@@ -66,8 +40,10 @@ p {
   margin-bottom: 1rem;
 
   a {
-    color: $text-color-light-1;
+    // color: $text-color-light-1;
+    color: $gray-600;
     text-decoration: underline;
+    text-decoration-color: $gray-400;
   }
 }
 
@@ -79,7 +55,7 @@ body {
   font-size: 1.75rem;
   font-family: "Literata", serif;
   color: $text-color;
-  background-color: $background-color;
+  background-color: $white;
 }
 
 a {
@@ -89,7 +65,8 @@ a {
 
 // blocks of code
 pre {
-  background: $primary-color-light-3;
+  // background: $primary-color-light-3;
+  background: $purple-50;
   border-radius: 3px;
   padding: 1rem;
   overflow-x: auto;
@@ -106,17 +83,17 @@ li > code,
 dd > code,
 td > code {
   @include monospace-font;
-  background: $code-background-color;
-  color: $code-color;
+  background: $purple-100;
   padding: 0 0.5rem;
+  margin: 0 0.25rem;
 }
 
 blockquote {
   padding: 1rem;
   margin: 1rem 0 1rem 2rem;
   border-radius: 3px;
-  border-left: 3px solid $primary-color-light-1;
-  background: $primary-color-light-4;
+  border-left: 3px solid $purple-400;
+  background: $purple-50;
 
   p {
     margin-bottom: 0;
@@ -161,12 +138,7 @@ hr {
   padding: 1rem;
 }
 
-// === imports ===
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Literata:ital,wght@0,400;0,700;1,400&display=swap");
-// @import './scss/variables';
-// @import './scss/mixins';
-// @import './scss/base';
-
+// === non-base ===
 .nav {
   display: flex;
   align-items: center;
@@ -184,7 +156,7 @@ hr {
   &-links {
     a {
       @include monospace-font;
-      color: $text-color-light-5;
+      color: $text-color-secondary;
       margin-right: 2rem;
       font-weight: 300;
     }
