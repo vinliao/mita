@@ -9,7 +9,7 @@ p {
   p a {
     color: #3f3f46;
     text-decoration: underline;
-    text-decoration-color: #d8b4fe; }
+    text-decoration-color: #c084fc; }
 
 html {
   font-size: 10px; }
@@ -94,7 +94,9 @@ hr {
     font-family: "Fira Code", monospace;
     font-size: 3rem;
     font-weight: 300;
-    white-space: nowrap; }
+    white-space: nowrap;
+    text-decoration: underline;
+    text-decoration-color: #7e22ce; }
   .nav-links a {
     font-family: "Fira Code", monospace;
     color: #a1a1aa;
