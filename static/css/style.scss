@@ -41,7 +41,7 @@ p {
   a {
     color: $text-color;
     text-decoration: underline;
-    text-decoration-color: $blue-600;
+    text-decoration-color: $indigo-400;
   }
 }
 
@@ -63,8 +63,7 @@ a {
 
 // blocks of code
 pre {
-  // background: $primary-color-light-3;
-  background: $blue-50;
+  background: $blueGray-50;
   border-radius: 3px;
   padding: 1rem;
   overflow-x: auto;
