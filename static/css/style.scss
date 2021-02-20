@@ -41,7 +41,7 @@ p {
   a {
     color: $text-color;
     text-decoration: underline;
-    text-decoration-color: $purple-400;
+    text-decoration-color: $blue-600;
   }
 }
 
@@ -64,7 +64,7 @@ a {
 // blocks of code
 pre {
   // background: $primary-color-light-3;
-  background: $purple-50;
+  background: $blue-50;
   border-radius: 3px;
   padding: 1rem;
   overflow-x: auto;
@@ -81,7 +81,7 @@ li > code,
 dd > code,
 td > code {
   @include monospace-font;
-  background: $purple-50;
+  background: $blue-50;
   padding: 0 0.5rem;
 }
 
@@ -152,8 +152,6 @@ hr {
     font-size: 3rem;
     font-weight: 300;
     white-space: nowrap;
-    // text-decoration: underline;
-    // text-decoration-color: $purple-700;
   }
 
   &-links {

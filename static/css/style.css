@@ -9,7 +9,7 @@ p {
   p a {
     color: #3f3f46;
     text-decoration: underline;
-    text-decoration-color: #c084fc; }
+    text-decoration-color: #2563eb; }
 
 html {
   font-size: 10px; }
@@ -25,7 +25,7 @@ a {
   color: #3f3f46; }
 
 pre {
-  background: #faf5ff;
+  background: #eff6ff;
   border-radius: 3px;
   padding: 1rem;
   overflow-x: auto;
@@ -38,7 +38,7 @@ li > code,
 dd > code,
 td > code {
   font-family: "Fira Code", monospace;
-  background: #faf5ff;
+  background: #eff6ff;
   padding: 0 0.5rem; }
 
 blockquote {
