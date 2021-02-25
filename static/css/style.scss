@@ -26,6 +26,11 @@ $background-color: $white;
   color: $text-color-secondary;
 }
 
+@mixin link-underline {
+  text-decoration: underline;
+  text-decoration-color: $indigo-400;
+}
+
 // === base ===
 * {
   box-sizing: border-box;
@@ -39,9 +44,7 @@ p {
   margin-bottom: 1rem;
 
   a {
-    color: $text-color;
-    text-decoration: underline;
-    text-decoration-color: $indigo-400;
+    @include link-underline();
   }
 }
 
@@ -125,6 +128,10 @@ ul,
 ol {
   margin-left: 2.5rem;
   margin-bottom: 1rem;
+
+  a {
+    @include link-underline();
+  }
 }
 
 hr {
