@@ -166,6 +166,10 @@ hr {
       color: $text-color-secondary;
       margin-right: 2rem;
       font-weight: 300;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
     }
   }
 }

@@ -103,6 +103,8 @@ hr {
     color: #a1a1aa;
     margin-right: 2rem;
     font-weight: 300; }
+    .nav-links a:last-of-type {
+      margin-right: 0; }
 
 .list {
   margin-bottom: 2rem; }
