@@ -1,6 +1,6 @@
 # Mita—a hugo theme that feels like a milligram.
 
-You can check the demo [here.](https://mita-demo.netlify.app)
+You can check the demo [here.](https://vinliao.com)
 
 ![mita first image](https://raw.githubusercontent.com/vinliao/mita/master/images/mita-1.png)
 ![mita second image](https://raw.githubusercontent.com/vinliao/mita/master/images/mita-2.png)
