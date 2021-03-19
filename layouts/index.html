@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{ range (.Paginate $pages).Pages }}
+{{ range $pages }}
 <div class="list">
   <a href="{{ .RelPermalink }}">
     <h1 class="list-title">
