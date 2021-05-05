@@ -19,3 +19,6 @@ Paste this to your `config.toml` and adjust accordingly.
       {Name = "other", URL = "/other"},
   ]
 ```
+
+## Misc
+- You can remove a page's date by deleting the `date` variable in the front matter. A post without date won't be listed on the front page, but still can be accessed - e.g., an about page.
