@@ -22,6 +22,7 @@ $background-color: $white;
 }
 
 @mixin date-text {
+  margin-top: 0;
   font-size: 1.5rem;
   color: $text-color-secondary;
 }
@@ -41,6 +42,7 @@ $background-color: $white;
 // without this margin bottom, there's no line break
 // in the post
 p {
+  margin-top: 1rem;
   margin-bottom: 1rem;
 
   a {

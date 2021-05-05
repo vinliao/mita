@@ -5,6 +5,7 @@
   padding: 0; }
 
 p {
+  margin-top: 1rem;
   margin-bottom: 1rem; }
   p a {
     text-decoration: underline;
@@ -111,6 +112,7 @@ hr {
   .list:last-of-type {
     margin-bottom: 5rem; }
   .list-date {
+    margin-top: 0;
     font-size: 1.5rem;
     color: #a1a1aa; }
   .list-title {
@@ -121,6 +123,7 @@ hr {
   font-size: 3rem;
   font-weight: 700; }
 .post-date {
+  margin-top: 0;
   font-size: 1.5rem;
   color: #a1a1aa;
   margin-bottom: 1rem; }
