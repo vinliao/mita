@@ -128,6 +128,10 @@ hr {
   font-size: 1.5rem;
   color: #a1a1aa;
   margin-bottom: 1rem; }
+.post-next-prev {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Fira Code", monospace; }
 
 @media (min-width: 600px) {
   html {

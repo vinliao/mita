@@ -12,6 +12,21 @@
   {{ end }}
 
   {{ .Content }}
+
+  {{ if .Params.Date }}
+  <br><br>
+
+  <div class="post-next-prev">
+    {{ if .PrevPage }}
+    <a href="{{ .PrevPage.Permalink }}">← Prev post</a>
+    {{ end }}
+
+    {{ if .NextPage }}
+    <a href="{{ .NextPage.Permalink }}">Next post →</a>
+    {{ end }}
+  </div>
+  {{ end }}
+  
 </div>
 
 {{ partial "footer.html" . }}
