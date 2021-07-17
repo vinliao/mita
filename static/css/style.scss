@@ -207,6 +207,7 @@ hr {
     display: flex;
     justify-content: space-between;
     @include monospace-font;
+    margin-top: 5rem;
   }
 }
 
