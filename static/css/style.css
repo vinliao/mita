@@ -167,7 +167,7 @@ hr {
 
   .post,
   .list {
-    max-width: 55ch; }
+    width: 55ch; }
 
   .list:first-of-type {
     margin-top: 5rem; } }
