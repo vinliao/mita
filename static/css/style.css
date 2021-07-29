@@ -122,8 +122,6 @@ hr {
 
 .list-home {
   margin-bottom: 8rem; }
-  .list-home:last-of-type {
-    margin-bottom: 5rem; }
   .list-home-date {
     margin-top: 0;
     font-size: 1.5rem;
@@ -183,6 +181,9 @@ hr {
     width: 55ch; }
 
   .list:first-of-type {
+    margin-top: 5rem; }
+
+  .list-home:first-of-type {
     margin-top: 5rem; } }
 
 /*# sourceMappingURL=style.css.map */

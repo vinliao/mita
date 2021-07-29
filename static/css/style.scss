@@ -196,10 +196,6 @@ hr {
 .list-home {
   margin-bottom: 8rem;
 
-  &:last-of-type {
-    margin-bottom: 5rem;
-  }
-
   &-date {
     @include date-text;
   }
@@ -280,6 +276,10 @@ hr {
   }
 
   .list:first-of-type {
+    margin-top: 5rem;
+  }
+
+  .list-home:first-of-type {
     margin-top: 5rem;
   }
 }
