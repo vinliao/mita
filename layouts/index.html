@@ -2,15 +2,15 @@
 
 <!-- goal: show x number of recent post, zero-click, on home -->
 
-{{ $pages := first 7 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+{{ $pages := first 10 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
 {{ range $pages }}
-<div class="list">
+<div class="list-home">
   <a href="{{ .RelPermalink }}">
-    <h1 class="list-title">
+    <h1 class="list-home-title">
       {{ .Title }}
     </h1>
   </a>
-  <p datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}" class="list-date">
+  <p datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}" class="list-home-date">
     {{ .Date.Format "2006-01-02" }}
     <p />
 

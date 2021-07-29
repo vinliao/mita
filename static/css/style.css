@@ -120,6 +120,18 @@ hr {
     font-size: 3rem;
     font-weight: 700; }
 
+.list-home {
+  margin-bottom: 8rem; }
+  .list-home:last-of-type {
+    margin-bottom: 5rem; }
+  .list-home-date {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #a1a1aa; }
+  .list-home-title {
+    font-size: 3rem;
+    font-weight: 700; }
+
 .post-title {
   font-size: 3rem;
   font-weight: 700; }
@@ -166,7 +178,8 @@ hr {
     margin-top: 5rem; }
 
   .post,
-  .list {
+  .list,
+  .list-home {
     width: 55ch; }
 
   .list:first-of-type {

@@ -193,6 +193,22 @@ hr {
   }
 }
 
+.list-home {
+  margin-bottom: 8rem;
+
+  &:last-of-type {
+    margin-bottom: 5rem;
+  }
+
+  &-date {
+    @include date-text;
+  }
+
+  &-title {
+    @include thick-title;
+  }
+}
+
 .post {
   &-title {
     @include thick-title;
@@ -258,7 +274,8 @@ hr {
   }
 
   .post,
-  .list {
+  .list,
+  .list-home {
     width: $max-width;
   }
 
