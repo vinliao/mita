@@ -2,8 +2,8 @@
 
 <!-- goal: show x number of recent post, zero-click, on home -->
 
-{{ $pages := first 10 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-{{ range $pages }}
+{{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+{{ range $paginator.Pages }}
 <div class="list-home">
   <a href="{{ .RelPermalink }}">
     <h1 class="list-home-title">
@@ -20,8 +20,17 @@
 {{ end }}
 
 <div class="post-next-prev">
+  {{ if $paginator.HasPrev }}
+  <a href="{{ $paginator.Prev.URL }}">← Newer</a>
+  {{ end }}
+
+  {{ if $paginator.HasNext }}
+  {{ if not $paginator.HasPrev }}
+  <!-- this is for flexbox, it pushes the element to the right -->
   <p></p>
-  <a href="/posts">All post →</a>
+  {{ end }}
+  <a href="{{ $paginator.Next.URL }}">Older →</a>
+  {{ end }}
 </div>
 
 {{ partial "footer.html" . }}
