@@ -48,6 +48,11 @@ blockquote {
   blockquote p {
     margin-bottom: 0; }
 
+input {
+  font-family: "Fira Code", monospace;
+  padding: 0.5rem;
+  font-size: 1.5rem; }
+
 img {
   max-width: 100%;
   display: block;

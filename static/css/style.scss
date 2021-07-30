@@ -99,6 +99,13 @@ blockquote {
   }
 }
 
+// currently limited to email only
+input {
+  @include monospace-font;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
 img {
   max-width: 100%;
   display: block;
