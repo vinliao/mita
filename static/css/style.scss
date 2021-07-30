@@ -104,6 +104,10 @@ input {
   @include monospace-font;
   padding: 0.5rem;
   font-size: 1.5rem;
+
+  &[type=email] {
+    width: 15rem;
+  }
 }
 
 img {

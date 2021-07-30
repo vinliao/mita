@@ -52,6 +52,8 @@ input {
   font-family: "Fira Code", monospace;
   padding: 0.5rem;
   font-size: 1.5rem; }
+  input[type=email] {
+    width: 15rem; }
 
 img {
   max-width: 100%;
