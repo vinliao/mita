@@ -129,10 +129,13 @@ hr {
 
 .list-home {
   margin-bottom: 8rem; }
-  .list-home-date {
+  .list-home-details {
     margin-top: 0;
     font-size: 1.5rem;
     color: #a1a1aa; }
+  .list-home-link {
+    text-decoration: underline;
+    text-decoration-color: #818cf8; }
   .list-home-title {
     font-size: 3rem;
     font-weight: 700; }

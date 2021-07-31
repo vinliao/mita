@@ -207,8 +207,12 @@ hr {
 .list-home {
   margin-bottom: 8rem;
 
-  &-date {
+  &-details {
     @include date-text;
+  }
+
+  &-link {
+    @include link-underline;
   }
 
   &-title {

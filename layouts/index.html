@@ -5,16 +5,21 @@
 {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
 {{ range $paginator.Pages }}
 <div class="list-home">
-  <a href="{{ .RelPermalink }}">
-    <h1 class="list-home-title">
-      {{ .Title }}
-    </h1>
-  </a>
-  <p datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}" class="list-home-date">
-    {{ .Date.Format "2006-01-02" }}
-    <p />
+  <h1 class="list-home-title">
+    {{ .Title }}
+  </h1>
 
-    {{ .Content }}
+  <div class="list-home-details">
+    <span datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
+      {{ .Date.Format "2006-01-02" }} ·
+    </span>
+
+    <a href="{{ .RelPermalink }}" class="list-home-link">
+      Link to this post
+    </a>
+  </div>
+
+  {{ .Content }}
 
 </div>
 {{ end }}
