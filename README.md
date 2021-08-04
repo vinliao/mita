@@ -1,6 +1,6 @@
 # Mita—a hugo theme that feels like a milligram.
 
-You can check the demo [here](https://vinliao.com).
+You can check the demo at [vinliao.com](https://vinliao.com).
 
 ![mita first image](https://raw.githubusercontent.com/vinliao/mita/master/images/mita-1.png)
 ![mita second image](https://raw.githubusercontent.com/vinliao/mita/master/images/mita-2.png)
@@ -18,6 +18,24 @@ Paste this to your `config.toml` and adjust accordingly.
       {Name = "about", URL = "/about"},
       {Name = "other", URL = "/other"},
   ]
+```
+
+## On archive
+This theme has an archive, but it’s not on `/posts` like where the usual hugo archive is located. The archive is a [shortcode](https://gohugo.io/content-management/shortcodes/). Here's how you can use it.
+
+1. Run `hugo new archive.md`
+2. On the `archive.md` file, add `{{% archive %}} as the body
+
+The end result of `archive.md` might look something like this:
+
+```
+---
+title: "Archive"
+draft: false
+---
+(Optional: you can put text here.)
+
+{{% archive %}}
 ```
 
 ## Misc
