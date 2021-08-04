@@ -1,0 +1,3 @@
+{{ range where .Site.RegularPages "Section" "posts" }}
+1. [{{.Title}}]({{.Permalink}})
+{{end}}
