@@ -1,17 +1,8 @@
 {{ partial "header.html" . }}
 
-{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{ range $pages }}
-<div class="list">
-  <a href="{{ .RelPermalink }}">
-    <h1 class="list-title">
-      {{ .Title }}
-    </h1>
-  </a>
-  <p datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}" class="list-date">
-    {{ .Date.Format "2006-01-02" }}
-    <p />
+<div class="post">
+  <div class="post-title">Page not found</div>
+  <p>Go back to <a href="/">home page</a></p>
 </div>
-{{ end }}
 
 {{ partial "footer.html" . }}
