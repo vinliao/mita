@@ -2,7 +2,6 @@
 
 You can check the demo at [vinliao.com](https://vinliao.com).
 
-![mita first image](https://raw.githubusercontent.com/vinliao/mita/master/images/mita-1.png)
 ![mita second image](https://raw.githubusercontent.com/vinliao/mita/master/images/mita-2.png)
 
 ## How to install
