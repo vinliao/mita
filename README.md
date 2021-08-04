@@ -24,7 +24,7 @@ Paste this to your `config.toml` and adjust accordingly.
 This theme has an archive, but it’s not on `/posts` like where the usual hugo archive is located. The archive is a [shortcode](https://gohugo.io/content-management/shortcodes/). Here's how you can use it.
 
 1. Run `hugo new archive.md`
-2. On the `archive.md` file, add `{{% archive %}} as the body
+2. On the `archive.md` file, add `{{% archive %}}` as the body
 
 The end result of `archive.md` might look something like this:
 
