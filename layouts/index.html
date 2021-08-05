@@ -2,7 +2,7 @@
 
 <!-- goal: show x number of recent post, zero-click, on home -->
 
-{{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
 {{ range $paginator.Pages }}
 <div class="list-home">
   <h1 class="list-home-title">
