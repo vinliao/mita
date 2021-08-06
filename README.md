@@ -1,4 +1,13 @@
 # Mita—a hugo theme that feels like a milligram.
+The lightest hugo theme in the entire universe.
+- No fancy colors
+- No categories
+- No analytics
+- No tracking
+- No icons
+- No tags
+- No JS
+- No BS
 
 You can check the demo at [vinliao.com](https://vinliao.com).
 
