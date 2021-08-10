@@ -33,7 +33,7 @@ This theme has an archive, but it’s not on `/posts` like where the usual hugo 
 
 1. Run `hugo new archive.md`
 2. On the `archive.md` file, add `{{% archive %}}` as the body
-3. You can access the archive at yourwebsite.com/archive
+3. You can access the archive at `yourwebsite.com/archive`
 
 The end result of `archive.md` might look something like this:
 
