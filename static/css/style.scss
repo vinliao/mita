@@ -239,6 +239,20 @@ hr {
   }
 }
 
+.audio-control {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+
+  &-play-pause {
+    margin-right: 1rem;
+  }
+
+  &-progress-bar {
+    margin-right: 1rem;
+  }
+}
+
 // breakpoint is arbitrary
 @media (min-width: 600px) {
   html {

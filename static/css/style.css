@@ -155,6 +155,15 @@ hr {
   margin-top: 5rem;
   margin-bottom: 1rem; }
 
+.audio-control {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex; }
+  .audio-control-play-pause {
+    margin-right: 1rem; }
+  .audio-control-progress-bar {
+    margin-right: 1rem; }
+
 @media (min-width: 600px) {
   html {
     font-size: 11.5px; } }

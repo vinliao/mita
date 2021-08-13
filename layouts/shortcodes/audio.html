@@ -1,1 +1,16 @@
-<audio controls preload="none" src={{ .Get "src" }}>Your browser does not support audio.</audio>
+<audio class="audio" preload="none" src={{ .Get "src" }}></audio>
+<div class="audio-control">
+  <button class="audio-control-play-pause">play</button>
+  <div class="audio-control-progress-bar">asdfasdfa</div>
+  <span class="audio-control-time-length">0:49</span>
+</div>
+
+<script>
+  // this will definitely clash in the future...
+  var audio = document.querySelector(".audio");
+  var playPauseButton = document.querySelector(".audio-control-play-pause");
+
+  playPauseButton.addEventListener("click", function () {
+    audio.play();
+  });
+</script>
