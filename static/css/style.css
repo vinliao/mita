@@ -132,7 +132,8 @@ hr {
   .list-home-details {
     margin-top: 0;
     font-size: 1.5rem;
-    color: #a1a1aa; }
+    color: #a1a1aa;
+    text-align: right; }
   .list-home-link {
     text-decoration: underline;
     text-decoration-color: #818cf8; }
@@ -147,7 +148,7 @@ hr {
   margin-top: 0;
   font-size: 1.5rem;
   color: #a1a1aa;
-  margin-bottom: 1rem; }
+  text-align: right; }
 .post-next-prev {
   display: flex;
   justify-content: space-between;

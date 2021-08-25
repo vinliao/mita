@@ -209,6 +209,7 @@ hr {
 
   &-details {
     @include date-text;
+    text-align: right;
   }
 
   &-link {
@@ -227,7 +228,7 @@ hr {
 
   &-date {
     @include date-text;
-    margin-bottom: 1rem;
+    text-align: right;
   }
 
   &-next-prev {
