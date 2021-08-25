@@ -12,11 +12,6 @@ $text-color-secondary: $gray-400;
 $background-color: $white;
 
 // === mixins ===
-@mixin thick-title {
-  font-size: 3rem;
-  font-weight: 700;
-}
-
 @mixin monospace-font {
   font-family: "Fira Code", monospace;
 }
@@ -198,10 +193,6 @@ hr {
   &-date {
     @include date-text;
   }
-
-  &-title {
-    @include thick-title;
-  }
 }
 
 .list-home {
@@ -215,17 +206,9 @@ hr {
   &-link {
     @include link-underline;
   }
-
-  &-title {
-    @include thick-title;
-  }
 }
 
 .post {
-  &-title {
-    @include thick-title;
-  }
-
   &-date {
     @include date-text;
     text-align: right;

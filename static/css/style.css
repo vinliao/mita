@@ -123,9 +123,6 @@ hr {
     margin-top: 0;
     font-size: 1.5rem;
     color: #a1a1aa; }
-  .list-title {
-    font-size: 3rem;
-    font-weight: 700; }
 
 .list-home {
   margin-bottom: 8rem; }
@@ -137,13 +134,7 @@ hr {
   .list-home-link {
     text-decoration: underline;
     text-decoration-color: #818cf8; }
-  .list-home-title {
-    font-size: 3rem;
-    font-weight: 700; }
 
-.post-title {
-  font-size: 3rem;
-  font-weight: 700; }
 .post-date {
   margin-top: 0;
   font-size: 1.5rem;
