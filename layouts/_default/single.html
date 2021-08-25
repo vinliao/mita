@@ -11,16 +11,6 @@
     {{ .Date.Format "January 2, 2006" }}
   </p>
 
-  <div class="post-next-prev">
-    {{ if .PrevPage }}
-    <a href="{{ .PrevPage.Permalink }}">← Previous post</a>
-    {{ end }}
-
-    {{ if .NextPage }}
-    <a href="{{ .NextPage.Permalink }}">Next post →</a>
-    {{ end }}
-  </div>
-
   {{ end }}
   
 </div>
