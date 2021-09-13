@@ -31,13 +31,15 @@ pre {
   overflow-x: auto;
   margin: 1rem 0 1rem 0; }
   pre code {
-    font-family: "Fira Code", monospace; }
+    font-family: "Fira Code", monospace;
+    text-transform: lowercase; }
 
 p > code,
 li > code,
 dd > code,
 td > code {
   font-family: "Fira Code", monospace;
+  text-transform: lowercase;
   background: #eff6ff;
   padding: 0 0.5rem; }
 
@@ -50,6 +52,7 @@ blockquote {
 
 input {
   font-family: "Fira Code", monospace;
+  text-transform: lowercase;
   padding: 0.5rem;
   font-size: 1.5rem; }
   input[type=email] {
@@ -103,11 +106,13 @@ hr {
   margin-bottom: 1rem; }
   .nav-title {
     font-family: "Fira Code", monospace;
+    text-transform: lowercase;
     font-size: 3rem;
     font-weight: 300;
     white-space: nowrap; }
   .nav-links a {
     font-family: "Fira Code", monospace;
+    text-transform: lowercase;
     color: #a1a1aa;
     margin-right: 2rem;
     font-weight: 300;
@@ -144,6 +149,7 @@ hr {
   display: flex;
   justify-content: space-between;
   font-family: "Fira Code", monospace;
+  text-transform: lowercase;
   margin-top: 5rem;
   margin-bottom: 1rem; }
 

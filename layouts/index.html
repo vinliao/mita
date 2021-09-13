@@ -24,7 +24,7 @@
 
 <div class="post-next-prev">
   {{ if $paginator.HasPrev }}
-  <a href="{{ $paginator.Prev.URL }}">← Newer</a>
+  <a href="{{ $paginator.Prev.URL }}">← newer</a>
   {{ end }}
 
   {{ if $paginator.HasNext }}
@@ -32,7 +32,7 @@
   <!-- this is for flexbox, it pushes the element to the right -->
   <p></p>
   {{ end }}
-  <a href="{{ $paginator.Next.URL }}">Older →</a>
+  <a href="{{ $paginator.Next.URL }}">older →</a>
   {{ end }}
 </div>
 
