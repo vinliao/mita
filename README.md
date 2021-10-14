@@ -1,5 +1,7 @@
-# Mita—a hugo theme that feels like a milligram
-The lightest hugo theme in the entire universe.
+# Mita—the most boring (but gorgeous) hugo theme
+There's one question that guided me in the process of making this theme. The question is this: "If I were to make a theme that can last decades, what would it look like?" The result is this hugo theme.
+
+Boring on purpose:
 - No fancy colors
 - No categories
 - No analytics
@@ -11,7 +13,7 @@ The lightest hugo theme in the entire universe.
 
 You can check the demo at [vinliao.com](https://vinliao.com).
 
-![mita second image](https://raw.githubusercontent.com/vinliao/mita/master/images/mita-2.png)
+![mita desktop](https://raw.githubusercontent.com/vinliao/mita/master/images/mita-desktop.png)
 
 ## How to install
 1. On your website's root directory, run `git submodule add https://github.com/vinliao/mita themes/mita`
@@ -32,7 +34,7 @@ Paste this to your `config.toml` and adjust accordingly.
 This theme has an archive, but it’s not on `/posts` like where the usual hugo archive is located. The archive is a [shortcode](https://gohugo.io/content-management/shortcodes/). Here's how you can use it.
 
 1. Run `hugo new archive.md`
-2. On the `archive.md` file, add `{{% archive %}}` as the body
+2. On the `archive.md` file, delete `date` in the front matter, add `{{% archive %}}` in the body
 3. You can access the archive at `yourwebsite.com/archive`
 
 The end result of `archive.md` might look something like this:
