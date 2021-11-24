@@ -52,3 +52,4 @@ draft: false
 ## Misc
 - You can remove a page's date by deleting the `date` variable in the front matter. A post without date won't be listed on the front page, but still can be accessed - e.g., an about page.
 - I built this theme from scratch. If you'd like to build your own hugo theme, I've written a tutorial [here](https://dev.to/vinliao/create-your-own-hugo-theme-from-scratch-5df9).
+- If you find this project useful, consider buying me [coffee](https://buymeacoffee.com/vinliao).
