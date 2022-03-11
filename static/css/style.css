@@ -9,7 +9,7 @@ p {
   margin-bottom: 1rem; }
   p a {
     text-decoration: underline;
-    text-decoration-color: #93c5fd; }
+    text-decoration-color: #0ea5e9; }
 
 html {
   font-size: 10px; }
@@ -86,7 +86,7 @@ ol {
   ul a,
   ol a {
     text-decoration: underline;
-    text-decoration-color: #93c5fd; }
+    text-decoration-color: #0ea5e9; }
 
 hr {
   margin-top: 1rem;
@@ -137,7 +137,7 @@ hr {
     text-align: right; }
   .list-home-link {
     text-decoration: underline;
-    text-decoration-color: #93c5fd; }
+    text-decoration-color: #0ea5e9; }
 
 .post-date {
   margin-top: 0;
