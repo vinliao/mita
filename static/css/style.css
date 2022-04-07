@@ -23,7 +23,8 @@ body {
 
 a {
   text-decoration: none;
-  color: #3f3f46; }
+  color: #3f3f46;
+  overflow-wrap: break-word; }
 
 pre {
   background: #f8fafc;
