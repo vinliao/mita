@@ -74,6 +74,7 @@ pre {
 
   code {
     @include monospace-font;
+    text-transform: none;
   }
 }
 

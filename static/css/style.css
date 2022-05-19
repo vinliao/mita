@@ -34,7 +34,8 @@ pre {
   margin: 1rem 0 1rem 0; }
   pre code {
     font-family: "Fira Code", monospace;
-    text-transform: lowercase; }
+    text-transform: lowercase;
+    text-transform: none; }
 
 p > code,
 li > code,
