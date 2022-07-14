@@ -1,39 +1,5 @@
-{{ partial "header.html" . }}
+{{ partial "headerNoNav.html" . }}
 
-<!-- goal: show x number of recent post, zero-click, on home -->
-
-{{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
-{{ range $paginator.Pages }}
-<div class="list-home">
-  <a href="{{ .RelPermalink }}">
-    <h1 class="list-home-title">
-      {{ .Title }}
-    </h1>
-  </a>
-
-  {{ .Content }}
-
-  <div class="list-home-details">
-    <span datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
-      {{ .Date.Format "January 2, 2006" }}
-    </span>
-  </div>
-
-</div>
-{{ end }}
-
-<div class="post-next-prev">
-  {{ if $paginator.HasPrev }}
-  <a href="{{ $paginator.Prev.URL }}">← newer</a>
-  {{ end }}
-
-  {{ if $paginator.HasNext }}
-  {{ if not $paginator.HasPrev }}
-  <!-- this is for flexbox, it pushes the element to the right -->
-  <p></p>
-  {{ end }}
-  <a href="{{ $paginator.Next.URL }}">older →</a>
-  {{ end }}
-</div>
+{{ .Content }}
 
 {{ partial "footer.html" . }}
