@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Literata:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +17,7 @@ html {
 
 body {
   font-size: 1.75rem;
-  font-family: "Literata", serif;
+  font-family: "Roboto Condensed", serif;
   color: #3f3f46;
   background-color: #fff; }
 
@@ -33,7 +33,7 @@ pre {
   overflow-x: auto;
   margin: 1rem 0 1rem 0; }
   pre code {
-    font-family: "Fira Code", monospace;
+    font-family: "Noto Sans Mono", monospace;
     text-transform: lowercase;
     text-transform: none; }
 
@@ -41,7 +41,7 @@ p > code,
 li > code,
 dd > code,
 td > code {
-  font-family: "Fira Code", monospace;
+  font-family: "Noto Sans Mono", monospace;
   text-transform: lowercase;
   background: #eff6ff;
   padding: 0 0.5rem; }
@@ -53,7 +53,7 @@ blockquote {
     margin-bottom: 0; }
 
 input {
-  font-family: "Fira Code", monospace;
+  font-family: "Noto Sans Mono", monospace;
   text-transform: lowercase;
   padding: 0.5rem;
   font-size: 1.5rem; }
@@ -74,7 +74,9 @@ h6 {
   margin-top: 1rem; }
 
 h1 {
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: 900; }
 
 h2 {
   margin-top: 2rem; }
@@ -107,12 +109,12 @@ hr {
   justify-content: space-between;
   margin-bottom: 1rem; }
   .nav-title {
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Condensed', serif;
     font-size: 2.5rem;
     font-weight: 400;
     white-space: nowrap; }
   .nav-links a {
-    font-family: "Fira Code", monospace;
+    font-family: "Noto Sans Mono", monospace;
     text-transform: lowercase;
     color: #a1a1aa;
     margin-right: 2rem;
@@ -149,7 +151,7 @@ hr {
 .post-next-prev {
   display: flex;
   justify-content: space-between;
-  font-family: "Fira Code", monospace;
+  font-family: "Noto Sans Mono", monospace;
   text-transform: lowercase;
   margin-top: 5rem;
   margin-bottom: 1rem; }

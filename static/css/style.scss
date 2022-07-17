@@ -1,6 +1,7 @@
 // === imports ===
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Literata:ital,wght@0,400;0,700;1,400&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;900&display=swap');
+
 // @import './scss/variables';
 // @import './scss/mixins';
 // @import './scss/base';
@@ -14,7 +15,7 @@ $background-color: $white;
 
 // === mixins ===
 @mixin monospace-font {
-  font-family: "Fira Code", monospace;
+  font-family: "Noto Sans Mono", monospace;
   text-transform: lowercase;
 }
 
@@ -53,7 +54,7 @@ html {
 
 body {
   font-size: 1.75rem;
-  font-family: "Literata", serif;
+  font-family: "Roboto Condensed", serif;
   color: $text-color;
   background-color: $white;
 }
@@ -125,6 +126,8 @@ h6 {
 
 h1 {
   margin-top: 3rem;
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: 900;
 }
 
 h2 {
@@ -165,7 +168,7 @@ hr {
   margin-bottom: 1rem;
 
   &-title {
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Condensed', serif;
     font-size: 2.5rem;
     font-weight: 400;
     white-space: nowrap;
