@@ -18,12 +18,12 @@ html {
 body {
   font-size: 1.75rem;
   font-family: "Roboto Condensed", serif;
-  color: #3f3f46;
+  color: #333333;
   background-color: white; }
 
 a {
   text-decoration: none;
-  color: #3f3f46;
+  color: #333333;
   overflow-wrap: break-word; }
 
 pre {
@@ -116,7 +116,7 @@ hr {
   .nav-links a {
     font-family: "Noto Sans Mono", monospace;
     text-transform: lowercase;
-    color: #a1a1aa;
+    color: #b3b3b3;
     margin-right: 2rem;
     font-weight: 300;
     text-align: right; }
@@ -130,14 +130,14 @@ hr {
   .list-date {
     margin-top: 0;
     font-size: 1.5rem;
-    color: #a1a1aa; }
+    color: #b3b3b3; }
 
 .list-home {
   margin-bottom: 8rem; }
   .list-home-details {
     margin-top: 0;
     font-size: 1.5rem;
-    color: #a1a1aa;
+    color: #b3b3b3;
     text-align: right; }
   .list-home-link {
     text-decoration: underline;
@@ -146,7 +146,7 @@ hr {
 .post-date {
   margin-top: 0;
   font-size: 1.5rem;
-  color: #a1a1aa;
+  color: #b3b3b3;
   text-align: right; }
 .post-next-prev {
   display: flex;
@@ -180,7 +180,7 @@ hr {
     color: #b3b3b3; }
 
   pre {
-    background: #23272f; }
+    background: #2e2e2e; }
 
   p > code,
   li > code,

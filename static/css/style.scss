@@ -9,8 +9,8 @@
 
 // === variables ===
 $max-width: 55ch;
-$text-color: $gray-700;
-$text-color-secondary: $gray-400;
+$text-color: hsl(0, 0%, 20%);
+$text-color-secondary: hsl(0, 0%, 70%);
 $background-color: white;
 
 // === mixins ===
@@ -264,12 +264,12 @@ hr {
   .nav {
     &-links {
       a {
-        color: hsl(0, 0%, 70%);
+        color: $text-color-secondary;
       }
     }
   }
   pre {
-    background: hsl(220, 15%, 16%);
+    background: hsl(0, 0%, 18%);
   }
 
   // code (single backtick) in text
