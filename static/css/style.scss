@@ -27,7 +27,7 @@ $background-color: white;
 
 @mixin link-underline {
   text-decoration: underline;
-  text-decoration-color: $lightBlue-500;
+  text-decoration-color: hsl(0, 0%, 50%)
 }
 
 // === base ===
@@ -67,7 +67,7 @@ a {
 
 // blocks of code
 pre {
-  background: $blueGray-50;
+  background: hsl(0, 0%, 95%);
   border-radius: 3px;
   padding: 1rem;
   overflow-x: auto;
@@ -85,7 +85,7 @@ li > code,
 dd > code,
 td > code {
   @include monospace-font;
-  background: $blue-50;
+  background: hsl(0, 0%, 95%);
   padding: 0 0.5rem;
 }
 
@@ -250,33 +250,34 @@ hr {
   }
 }
 
-// dark mode
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: hsl(0, 0%, 15%);
-    color: hsl(0, 0%, 90%);
-  }
+// // disable for now
+// // dark mode
+// @media (prefers-color-scheme: dark) {
+//   body {
+//     background-color: hsl(0, 0%, 15%);
+//     color: hsl(0, 0%, 90%);
+//   }
 
-  a {
-    color: hsl(0, 0%, 90%);
-  }
+//   a {
+//     color: hsl(0, 0%, 90%);
+//   }
 
-  .nav {
-    &-links {
-      a {
-        color: $text-color-secondary;
-      }
-    }
-  }
-  pre {
-    background: hsl(0, 0%, 18%);
-  }
+//   .nav {
+//     &-links {
+//       a {
+//         color: $text-color-secondary;
+//       }
+//     }
+//   }
+//   pre {
+//     background: hsl(0, 0%, 18%);
+//   }
 
-  // code (single backtick) in text
-  p > code,
-  li > code,
-  dd > code,
-  td > code {
-    background: hsl(220, 15%, 16%);
-  }
-}
+//   // code (single backtick) in text
+//   p > code,
+//   li > code,
+//   dd > code,
+//   td > code {
+//     background: hsl(220, 15%, 16%);
+//   }
+// }
