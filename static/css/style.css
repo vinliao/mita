@@ -19,7 +19,7 @@ body {
   font-size: 1.75rem;
   font-family: "Roboto Condensed", serif;
   color: #3f3f46;
-  background-color: #fff; }
+  background-color: white; }
 
 a {
   text-decoration: none;
@@ -57,7 +57,7 @@ input {
   text-transform: lowercase;
   padding: 0.5rem;
   font-size: 1.5rem; }
-  input[type=email] {
+  input[type="email"] {
     width: 50%; }
 
 img {
@@ -109,7 +109,7 @@ hr {
   justify-content: space-between;
   margin-bottom: 1rem; }
   .nav-title {
-    font-family: 'Roboto Condensed', serif;
+    font-family: "Roboto Condensed", serif;
     font-size: 2.5rem;
     font-weight: 400;
     white-space: nowrap; }
@@ -168,5 +168,24 @@ hr {
 @media (min-width: 600px) {
   html {
     font-size: 11.5px; } }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #262626;
+    color: #e6e6e6; }
+
+  a {
+    color: #e6e6e6; }
+
+  .nav-links a {
+    color: #b3b3b3; }
+
+  pre {
+    background: #23272f; }
+
+  p > code,
+  li > code,
+  dd > code,
+  td > code {
+    background: #23272f; } }
 
 /*# sourceMappingURL=style.css.map */
