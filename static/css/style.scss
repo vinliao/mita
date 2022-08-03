@@ -1,6 +1,6 @@
 // === imports ===
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;900&display=swap");
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap");
 
 // @import './scss/variables';
 // @import './scss/mixins';
@@ -15,7 +15,7 @@ $background-color: white;
 
 // === mixins ===
 @mixin monospace-font {
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Fira Code", monospace;
   text-transform: lowercase;
 }
 
@@ -27,7 +27,7 @@ $background-color: white;
 
 @mixin link-underline {
   text-decoration: underline;
-  text-decoration-color: hsl(0, 0%, 50%)
+  text-decoration-color: hsl(0, 0%, 50%);
 }
 
 // === base ===
@@ -50,11 +50,20 @@ p {
 
 html {
   font-size: 10px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.01rem;
+  font-kerning: normal;
+  font-feature-settings: "kern" 1;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
 }
 
 body {
   font-size: 1.75rem;
-  font-family: "Roboto Condensed", serif;
   color: $text-color;
   background-color: hsl(0, 0%, 100%);
 }
@@ -127,7 +136,8 @@ h6 {
 
 h1 {
   margin-top: 3rem;
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.05rem;
   font-weight: 900;
 }
 
@@ -169,8 +179,9 @@ hr {
   margin-bottom: 1rem;
 
   &-title {
-    font-family: "Roboto Condensed", serif;
     font-size: 2.5rem;
+    font-style: italic;
+    letter-spacing: -0.055rem;
     font-weight: 400;
     white-space: nowrap;
   }

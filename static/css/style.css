@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;900&display=swap");
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,11 +13,17 @@ p {
     text-decoration-color: gray; }
 
 html {
-  font-size: 10px; }
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.01rem;
+  font-kerning: normal;
+  font-feature-settings: "kern" 1; }
 
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif; } }
 body {
   font-size: 1.75rem;
-  font-family: "Roboto Condensed", serif;
   color: #333333;
   background-color: white; }
 
@@ -33,7 +39,7 @@ pre {
   overflow-x: auto;
   margin: 1rem 0 1rem 0; }
   pre code {
-    font-family: "Noto Sans Mono", monospace;
+    font-family: "Fira Code", monospace;
     text-transform: lowercase;
     text-transform: none; }
 
@@ -41,7 +47,7 @@ p > code,
 li > code,
 dd > code,
 td > code {
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Fira Code", monospace;
   text-transform: lowercase;
   background: #f2f2f2;
   padding: 0 0.5rem; }
@@ -53,7 +59,7 @@ blockquote {
     margin-bottom: 0; }
 
 input {
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Fira Code", monospace;
   text-transform: lowercase;
   padding: 0.5rem;
   font-size: 1.5rem; }
@@ -76,7 +82,8 @@ h6 {
 
 h1 {
   margin-top: 3rem;
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.05rem;
   font-weight: 900; }
 
 h2 {
@@ -110,12 +117,13 @@ hr {
   justify-content: space-between;
   margin-bottom: 1rem; }
   .nav-title {
-    font-family: "Roboto Condensed", serif;
     font-size: 2.5rem;
+    font-style: italic;
+    letter-spacing: -0.055rem;
     font-weight: 400;
     white-space: nowrap; }
   .nav-links a {
-    font-family: "Noto Sans Mono", monospace;
+    font-family: "Fira Code", monospace;
     text-transform: lowercase;
     color: #b3b3b3;
     margin-right: 2rem;
@@ -152,7 +160,7 @@ hr {
 .post-next-prev {
   display: flex;
   justify-content: space-between;
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Fira Code", monospace;
   text-transform: lowercase;
   margin-top: 5rem;
   margin-bottom: 1rem; }
