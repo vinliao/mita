@@ -8,7 +8,7 @@
 @import "./_coloree.scss";
 
 // === variables ===
-$max-width: 55ch;
+$max-width: 60ch;
 $text-color: hsl(0, 0%, 20%);
 $text-color-secondary: hsl(0, 0%, 70%);
 $background-color: white;
@@ -259,6 +259,12 @@ hr {
 @media (min-width: 600px) {
   html {
     font-size: 11.5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 12.5px;
   }
 }
 
