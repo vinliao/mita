@@ -96,6 +96,7 @@ td > code {
   @include monospace-font;
   background: hsl(0, 0%, 95%);
   padding: 0 0.5rem;
+  overflow-wrap: break-word;
 }
 
 blockquote {

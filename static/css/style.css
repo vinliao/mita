@@ -50,7 +50,8 @@ td > code {
   font-family: "Fira Code", monospace;
   text-transform: lowercase;
   background: #f2f2f2;
-  padding: 0 0.5rem; }
+  padding: 0 0.5rem;
+  overflow-wrap: break-word; }
 
 blockquote {
   margin: 0 2rem;
