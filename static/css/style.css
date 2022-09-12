@@ -6,8 +6,8 @@
   padding: 0; }
 
 p {
-  margin-top: 1rem;
-  margin-bottom: 1rem; }
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
   p a {
     text-decoration: underline;
     text-decoration-color: gray; }
@@ -37,7 +37,7 @@ pre {
   border-radius: 3px;
   padding: 1rem;
   overflow-x: auto;
-  margin: 1rem 0 1rem 0; }
+  margin: 1.5rem 0 1.5rem 0; }
   pre code {
     font-family: "Fira Code", monospace;
     text-transform: lowercase;
@@ -69,7 +69,7 @@ input {
 img {
   max-width: 100%;
   display: block;
-  margin: 1rem auto;
+  margin: 1.5rem auto;
   border-radius: 5px; }
 
 h1,
@@ -78,7 +78,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 1rem; }
+  margin-top: 1.5rem; }
 
 h1 {
   margin-top: 3rem;
@@ -95,15 +95,15 @@ h3 {
 ul,
 ol {
   margin-left: 2.5rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1.5rem; }
   ul a,
   ol a {
     text-decoration: underline;
     text-decoration-color: gray; }
 
 hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem; }
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
 
 .container {
   max-width: 60ch;
